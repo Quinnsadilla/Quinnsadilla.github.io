@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    font-family: sans-serif;
+}
+a{
+    color: darkmagenta;
+}
+a:hover{
+    color: darkgreen;
+}
+main{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2{
+    text-align: center;
+}
+img{
+    height: 50%;
+    width: 50%;
+}
