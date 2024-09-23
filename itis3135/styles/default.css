@@ -1,13 +1,14 @@
 body{
-    background-color: bisque;
+    background-color: #EDE0D4;
     text-align: center;
     font-family: sans-serif;
 }
 a{
-    color: darkmagenta;
+    color: #6d454c;
+    text-decoration: none;
 }
 a:hover{
-    color: darkgreen;
+    color: #334e58;
 }
 main{
     text-align: left;
