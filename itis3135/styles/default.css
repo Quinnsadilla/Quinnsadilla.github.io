@@ -1,14 +1,18 @@
+/* 5d3251-a44200-f4e7e1-245b7f-b5c5aa */
 body{
-    background-color: #EDE0D4;
+    background-color: F4E7E1;
     text-align: center;
     font-family: sans-serif;
 }
+h1{
+    color: #245B7F;
+}
 a{
-    color: #6d454c;
+    color: #A44200;
     text-decoration: none;
 }
 a:hover{
-    color: #334e58;
+    color: #245B7F;
 }
 main{
     text-align: left;
