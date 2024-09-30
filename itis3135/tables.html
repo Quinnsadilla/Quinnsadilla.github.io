@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Quinn Migliaccio's ITIS3135 Tables</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Quinn Migliaccio's Quirky Marmot || ITIS-3135 Tables</h1>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>HTML Tables - Company</h2>
+
+            <h3>My Tabular Data</h3>
+            <ol>
+                <li>Sydney Carter scarter@quirkymarmot.com 100,000</li>
+                <li>Charlie Brown cbrown@quirkymarmot.com 65,000</li>
+                <li>Christina Ogden cogden@quirkymarmot.com 65,000</li>
+                <li>Emily Saliga esaliga@quirkymarmot.com 70,000</li>
+                <li>Jillian Migliaccio jmigliaccio@quirkymarmot.com 80,000</li>
+                <li>Ted E. Bear tBear@quirkymarmot.com 30,000</li>
+                <li>Red Fraggle rfraggle@quirkymarmot.com 25,000</li>
+            </ol>
+
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sydney Carter</td>
+                        <td>scarter@quirkymarmot.com</td>
+                        <td>100,000</td>
+                    </tr>
+                    <tr>
+                        <td>Charlie Brown</td>
+                        <td>cbrown@quirkymarmot.com</td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>Christina Ogden</td>
+                        <td>cogden@quirkymarmot.com</td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Saliga</td>
+                        <td>esaliga@quirkymarmot.com</td>
+                        <td>70,000</td>
+                    </tr>
+                    <tr>
+                        <td>Jillian Migliaccio</td>
+                        <td>jmigliaccio@quirkymarmot.com</td>
+                        <td>80,000</td>
+                    </tr>
+                    <tr>
+                        <td>Ted E. Bear</td>
+                        <td>tBear@quirkymarmot.com</td>
+                        <td>30,000</td>
+                    </tr>
+                    <tr>
+                        <td>Red Fraggle</td>
+                        <td>rfraggle@quirkymarmot.com</td>
+                        <td>25,000</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <figure>
+				<h3>Employee Data in Complex Table</h3>
+				<figcaption>Employee Information - Quirky Marmot Inc.</figcaption>
+				<table>
+					<thead>
+						<tr>
+							<th>Department</th>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Salary</th>
+							<th>Years with Company</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Data Analytics</td>
+							<td>Sydney Carter</td>
+							<td>scarter@quirkymarmot.com</td>
+							<td>100,000</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td rowspan="3">Sales</td>
+                            <td>Charlie Brown</td>
+							<td>cbrown@quirkymarmot.com</td>
+							<td>65,000</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td>Christina Ogden</td>
+							<td>cogden@quirkymarmot.com</td>
+							<td>65,000</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>Emily Saliga</td>
+							<td>esaliga@quirkymarmot.com</td>
+							<td>70,000</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>Management</td>
+							<td>Jillian Migliaccio</td>
+							<td>jmigliaccio@quirkymarmot.com</td>
+							<td>80,000</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td rowspan="2">Support</td>
+							<td>Ted E. Bear</td>
+							<td>tBear@quirkymarmot.com</td>
+							<td>30,000</td>
+							<td>9</td>
+						</tr>
+						<tr>
+							<td>Red Fraggle</td>
+							<td>rfraggle@quirkymarmot.com</td>
+							<td>25,000</td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<th colspan="3">Totals</th>
+							<td>435,000</td>
+							<td>44</td>
+						</tr>
+					</tbody>
+				</table>
+			</figure>
+		</main>
+		<footer>
+			<div data-include="components\footer.html"></div>
+		</footer>
+		<script src="scripts/HTMLInclude.min.js"></script>
+		
+	</body>
+</html>
