@@ -1,6 +1,6 @@
 /* 5d3251-a44200-f4e7e1-245b7f-b5c5aa */
 body{
-    background-color: F4E7E1;
+    background-color: #b5c5aa;
     text-align: center;
     font-family: sans-serif;
 }
@@ -51,4 +51,27 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background-color: #b3dcf7;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+.inline{
+    display: inline;
+}
+.button{
+    background-color: #245B7F;
+    color: #f9f7f5;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 5px;
+}
+form{
+    padding: 5px;
+    color: #4f2944;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
