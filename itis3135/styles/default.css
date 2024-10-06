@@ -16,9 +16,39 @@ a:hover{
 }
 main{
     text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 85%;
 }
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    main {
+        width: 95%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    img {
+        width: 75%;
+        height: auto;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    main {
+        width: 80%;
+    }
+    img {
+        width: 60%;
+        height: auto;
+    }
+}
+
 h2{
     text-align: center;
 }
