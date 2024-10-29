@@ -17,8 +17,8 @@ a:hover{
 main{
     text-align: left;
     margin: 0 auto;
-    max-width: 1200px;
-    width: 80%;
+    max-width: 900px;
+    width: 90%;
 }
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
