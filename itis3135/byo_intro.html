@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Quinn Migliaccio's ITIS3135 BYO Introduction</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Quinn Migliaccio's Quirky Marmot || ITIS-3135 BYO Introduction</h1>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>BYO Introduction</h2>
+            <h3>Time to build your own intro page, please fill out the form below so that we can create your own page.</h3>
+            <form>
+                <label>Name:</label>
+                <input type="text" id="name" placeholder="Quinn Migliaccio" required>
+
+                <label>Mascot:</label>
+                <input type="text" id="mascot" placeholder="Quirky Marmot" required>
+
+                <label>Image:</label>
+                <input type="file" id="image" required>
+                <button type="button" id="load-image-btn">CLICK HERE TO LOAD</button>
+                <div id="load-image"></div>
+
+                <label>Image Caption:</label>
+                <input type="text" id="image-caption" placeholder="Me backpacking" required>
+
+                <label>Personal Background:</label>
+                <input type="text" id="personal" placeholder="From NC" required>
+
+                <label>Professional Background:</label>
+                <input type="text" id="professional" placeholder="Currently working for UNCC venture" required>
+
+                <label>Academic Background:</label>
+                <input type="text" id="academic" placeholder="Senior majoring in CS" required>
+
+                <label>Background in Web Development:</label>
+                <input type="text" id="web-development" placeholder="Web app development class" required>
+
+                <label>Primary Computer Platform:</label>
+                <input type="text" id="computer-platform" placeholder="windows laptop" required>
+
+                <label>Course title:</label>
+                <input type="text" id="course" placeholder="ITIS-3135" required>
+
+                <label>Course Description:</label>
+                <input type="text" id="course-description" placeholder="Web App Design and Development: I would like to learn more about making websites" required>
+                
+                <button type="button" id="add-course-btn">Add Course</button>
+                <div id="course-container"></div>
+
+                <label>Funny thing:</label>
+                <input type="text" id="funny" placeholder="What's a marmot's favorite type of music? Rock and hole!" >
+
+                <label>Anything else:</label>
+                <input type="text" id="anything-else" placeholder="" >
+
+                <label>
+                    <input type="checkbox" required>
+                </label>"I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available."
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+			
+		</main>
+		<footer>
+			<div data-include="components\footer.html"></div>
+		</footer>
+		<script src="scripts/HTMLInclude.min.js"></script>
+		<script src="scripts/survey.js"></script>
+	</body>
+</html>
