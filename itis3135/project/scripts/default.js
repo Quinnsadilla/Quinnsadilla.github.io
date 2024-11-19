@@ -1,13 +1,38 @@
-document.getElementById("nav-link").addEventListener("click", function(event) { //for hq page
-    // Show a confirmation alert
-    let confirmLeave = confirm("Are you sure you want to leave this page? You will be directed the the offical GWC website.");
-    if (!confirmLeave) {
-        // Prevent navigation if the user cancels
-        event.preventDefault();
-    }
-});
-
-function validateForm() { //join submit message
+function validateForm() { //join submit sucess message 
     document.getElementById("form-message").textContent = "Thank you!";
     return false; 
+}
+
+// rsvp button for events page
+const rsvpButton = document.getElementById("fall-social-rsvp");
+    if (rsvpButton) {
+        rsvpButton.addEventListener("click", () => {
+            window.location.href = "https://ninerengage.charlotte.edu/event/10629113";
+        });
+    }
+
+    //index page, join now button
+const joinNow = document.getElementById("join");
+if (joinNow){
+    joinNow.addEventListener("click", () => {
+        window.location.href = "join.html";
+    })
+}
+
+const ninerEngage = document.getElementById("niner-engage");
+if (ninerEngage){
+    ninerEngage.addEventListener("click", () => {
+        window.location.href = "https://ninerengage.charlotte.edu/organization/gwcuncc";
+    })
+}
+
+const joinForm = document.getElementById("join-form");
+const formMessage = document.getElementById("form-message");
+
+if (joinForm) {
+    joinForm.addEventListener("submit", (event) => {
+        // Custom validation logic if needed
+        formMessage.textContent = "Thank you!";
+        event.preventDefault(); // Prevent actual form submission for demonstration
+    });
 }

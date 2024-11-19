@@ -14,7 +14,7 @@
     <main>
         <h2>Join</h2>
         <p>Girls Who Code Charlotte is available for all students who attend UNC charlotte.  The club is aimed for students who identify as female or non-binary to support women in computer science programs. If you would like to join all you need to do is sign in to niner engage ussing your UNC Charlotte ID and then press join on the <a href="https://ninerengage.charlotte.edu/organization/gwcuncc" target="new">GirlsWhoCode ninner engage</a> page. </p>
-        <button onclick="location.href='https://ninerengage.charlotte.edu/organization/gwcuncc'" target="new" type="button">Niner Engage</button>
+        <button id="niner-engage" type="button">Niner Engage</button>
         <h3>Discord</h3>
         <p>There is a join link in the weekly news letter that is emailed to all members. Another option is to email our GWC email <a href="mailto:girlswhocodeclt@gmail.com">girlswhocodeclt@gmail.com</a> to request a link to the discord.  It is set up this way so that only UNC Charlotte sutdents who are in the club can acess our discord.</p>
         <h3>Socials</h3>
@@ -24,7 +24,7 @@
 
         <h3>New Member Form</h3>
         <p>Fill out the form to let us know your interests and any meeting ideas you would like to see.</p>
-        <form id="join-form" onsubmit="return validateForm()" method="post">
+        <form id="join-form" method="post">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
