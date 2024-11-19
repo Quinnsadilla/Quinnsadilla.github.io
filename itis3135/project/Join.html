@@ -16,10 +16,39 @@
         <p>Girls Who Code Charlotte is available for all students who attend UNC charlotte.  The club is aimed for students who identify as female or non-binary to support women in computer science programs. If you would like to join all you need to do is sign in to niner engage ussing your UNC Charlotte ID and then press join on the <a href="https://ninerengage.charlotte.edu/organization/gwcuncc">GirlsWhoCode ninner engage</a> page. </p>
         <button onclick="location.href='https://ninerengage.charlotte.edu/organization/gwcuncc'" target="new" type="button">Niner Engage</button>
         <h3>Discord</h3>
-        <p>There is a join link in the weekly news letter that is emailed to all members. Another option is to email our GWC email <a href="mailto:girlswhocodeclt@gmail.com">girlswhocodeclt@gmail.com</a> to request a link to the discord.  It is set up this way so that only UNC Charlotte sutdents who are in the club can asess our discord.</p>
-        <h3>Instagram</h3>
-        <p>Join us on instagram to stay up to date on events!</p>
-        <p>@gwc_clt</p>
+        <p>There is a join link in the weekly news letter that is emailed to all members. Another option is to email our GWC email <a href="mailto:girlswhocodeclt@gmail.com">girlswhocodeclt@gmail.com</a> to request a link to the discord.  It is set up this way so that only UNC Charlotte sutdents who are in the club can acess our discord.</p>
+        <h3>Socials</h3>
+        <p>Stay updated on events by following us on Instagram and LinkedIn!</p>
+        <p><a href="https://www.instagram.com/gwc_clt/" target="new">@gwc_clt on Instagram</a></p>
+        <p><a href="https://www.linkedin.com/company/girls-who-code-at-unc-charlotte/posts/?feedView=all" target="new">Connect on LinkedIn</a></p>
+
+        <h3>New Member Form</h3>
+        <p>Fill out the form to let us know your interests and any meeting ideas you would like to see.</p>
+        <form id="join-form" onsubmit="return validateForm()" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your UNC Charlotte email" required><br><br>
+            
+            <label>Select your interests (you can choose multiple):</label><br>
+            <input type="checkbox" id="workshops" name="interests" value="workshops">
+            <label for="workshops">Workshops</label><br>
+            <input type="checkbox" id="networking" name="interests" value="networking">
+            <label for="networking">Networking</label><br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Learning to code</label><br>
+            <input type="checkbox" id="events" name="interests" value="events">
+            <label for="events">Social events</label><br>
+            <br>
+
+            <label for="reason">Is there any events that you would like to see?</label><br>
+            <textarea id="reason" name="reason" placeholder="Tell us what kind of events you like!" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <p id="form-message"></p>
     </main>
     <footer>
         <div data-include="components\footer.html"></div>

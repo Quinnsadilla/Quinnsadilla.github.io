@@ -50,10 +50,29 @@ hr {
 button{
     background-color: #5ce1e6;
     border: 2px solid #9900ff;
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 1.2em;
     border-radius: 8px;
     cursor: pointer;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    border-color: #9900ff;
+    background-color: #ffffff; 
+}
+
+form input[type="text"], form input[type="email"]{
+    width: 400px;
+}
+
+form textarea {
+    height: 100px; 
+    width: 400px;
+}
+
+#form-message{
+    color:#9900ff; 
+    font-size: 1.2em;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
