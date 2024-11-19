@@ -5,29 +5,57 @@ body{
     font-family: sans-serif;
     color: #ffffff;
 }
+
 h1{
     color: #9900ff;
 }
+
 h2{
     color:#ff497f;
     text-align: center;
 }
+
 h3{
     color:#9900ff;
 }
+
 a{
     color: #5ce1e6;
     text-decoration: none;
 }
+
 a:hover{
     color: #ff497f;
 }
+
 main{
     text-align: left;
     margin: 0 auto;
     max-width: 900px;
-    width: 90%;
+    width: 80%;
 }
+nav{
+    padding: 8px;
+}
+
+hr {
+    border: none; /* Removes default hr styling */
+    height: 2px; /* Thickness of the line */
+    background-color: #9900ff; /* Line color */
+    width: 80%; /* Matches the header width */
+    max-width: 900px; /* Matches the header max-width */
+    margin: 0 auto; /* Centers the line */
+}
+
+button{
+    background-color: #5ce1e6;
+    border: 2px solid #9900ff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     main {
