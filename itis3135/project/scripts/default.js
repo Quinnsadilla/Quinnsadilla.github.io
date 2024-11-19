@@ -7,7 +7,7 @@ document.getElementById("nav-link").addEventListener("click", function(event) { 
     }
 });
 
-function validateForm() { //join 
+function validateForm() { //join submit message
     document.getElementById("form-message").textContent = "Thank you!";
     return false; 
 }
