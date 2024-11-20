@@ -105,3 +105,8 @@ form{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
+
+.centered-canvas {
+    display: block; /* Remove inline-block gap */
+    margin: 0 auto; /* Horizontally center the canvas */
+}
