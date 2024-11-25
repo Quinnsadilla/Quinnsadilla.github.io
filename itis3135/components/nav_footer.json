@@ -1,0 +1,22 @@
+{
+    "footerContent": [
+        {"type": "link", "name": "UNCC Home", "url": "https://webpages.charlotte.edu/qmigliac/"},
+        {"type": "link", "name": "Github", "url": "https://github.com/Quinnsadilla"},
+        {"type": "link", "name": "Github.io", "url": "https://github.com/Quinnsadilla/Quinnsadilla.github.io"},
+        {"type": "link", "name": "freeCodeCamp", "url": "https://www.freecodecamp.org/qmigliaccio"},
+        {"type": "link", "name": "Codecademy", "url": "https://www.codecademy.com/profiles/QuinnMigliaccio"},
+        {"type": "link", "name": "LinkedIn", "url": "https://www.linkedin.com/in/quinn-migliaccio/"},
+        {"type": "text", "content": "Page built by <a href='migliaccio.co/index.html' target='new'>migliaccio.co &copy; 2024</a>"},
+        {"type": "italic", "content": "Explore More"},
+        {"type": "certifications", "prefix": "Certified in", "content": [
+            {
+                "text": "Responsive Web Design",
+                "url": "https://www.freecodecamp.org/certification/qmigliaccio/responsive-web-design"
+            },
+            {
+                "text": "JavaScript Algorithms and Data Structures",
+                "url": "https://www.freecodecamp.org/certification/qmigliaccio/javascript-algorithms-and-data-structures-v8"
+            }
+        ]}
+    ]
+}
