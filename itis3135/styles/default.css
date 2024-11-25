@@ -106,6 +106,27 @@ form{
     margin: 0 auto;
 }
 
+input[type="text"],
+input[type="email"],
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #417da4;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+select {
+    padding: 10px;
+    margin: 5px 0;
+}
+
 .centered-canvas {
     display: block; /* Remove inline-block gap */
     margin: 0 auto; /* Horizontally center the canvas */
