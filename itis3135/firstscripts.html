@@ -23,6 +23,7 @@
 			<h3 id="date"></h3>
 
             <form>
+				<h3>Greeter</h3>
                 <label>What is your name?</label>
                 <input type="text" id="name" required>
 
@@ -34,12 +35,48 @@
             <p id="greeting"></p>
             
             <form>
+				<h3>Polygon names</h3>
                 <label>What is your favorite number between 0 - 10?</label>
                 <input type="number" id="favorite-number" required>
             <button type="button" id="favorite-number-button">Submit</button>
             </form>
             <p id="favorite-number-result"></p>
 
+			<form>
+				<h3>Hiking time calculator</h3>
+				<label>How many miles will you be hiking?</label>
+				<input type="number" id="miles" required>
+				<label>What is the total elevation gain in feet?</label>
+				<input type="number" id="elevation-gain" required>
+				<button type="button" id="time-calculator-button">Submit</button>
+			</form>
+			<p id="time-calculator"></p>
+
+			<form>
+				<h3>Meal finder</h3>
+				<label>Select a number 1-5 for a delicious backpaking meal!</label>
+				<input type="number" id="meal" min="1" max="5" required>
+				<button type="button" id="meal-finder-button">Submit</button>
+			</form>
+			<p id="meal-finder"></p>
+
+			<form>
+				<h3>Trail distance estimator</h3>
+				<label for="trail-segments">Enter distances of trail segments (in miles, separated by commas):</label><br>
+				<input type="text" id="trail-segments" placeholder="e.g., 2.5, 3, 1.8" required>
+				<button type="button" id="calculate-distance-button">Calculate Total Distance</button>
+			</form>
+			<p id="trail-distance-result"></p>
+
+			<form>
+				<h3>Water Supply Checker</h3>
+				<label for="hiking-hours">Enter hours of hiking planned:</label>
+				<input type="number" id="hiking-hours" min="1" required>
+				<label for="water-supply">Enter water supply in liters:</label>
+				<input type="number" id="water-supply" min="0" step="0.1" required>
+				<button type="button" id="check-water-button">Check Water</button>
+			</form>
+			<p id="water-check-result"></p>
 		</main>
 		<footer>
 			<!-- All footer content will be dynamically loaded here -->
