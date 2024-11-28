@@ -11,7 +11,7 @@ const rsvpButton = document.getElementById("fall-social-rsvp");
         });
     }
 
-    //index page, join now button
+//index page, join now button
 const joinNow = document.getElementById("join");
 if (joinNow){
     joinNow.addEventListener("click", () => {

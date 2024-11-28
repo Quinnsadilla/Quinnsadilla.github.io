@@ -8,13 +8,13 @@
 	<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div data-include="components\header.html"></div>
-    </header>
+    <header id="main-menu"></header>
     <main>
         <h2>Events</h2>
         <p>Stay connected and join us for upcoming events! Some of our envents require a RSVP. Please fill out the RSVP on Niner Engage. Here’s a list of what’s happening: </p>
         <h3 class="center">Upcoming Events</h3>
+        <p>There are not any upcomeing events at this time. </p>
+        <h3 class="center">Past Events</h3>   
         <section class="event">
             <h4>Fall Social</h4>
             <figure>
@@ -24,10 +24,9 @@
                 <p><strong>Date &amp Time:</strong> Tuesday, November 19, 2024, 5:00 PM - 7:00 PM</p>
                 <p><strong>Location:</strong> UNION 262</p>
                 <p><strong>Description:</strong> Celebrate the end of the semester with Girls Who Code at our fall social! We will have free food, prizes, and games!</p>
-                <button id="fall-social-rsvp" type="button">RSVP on Niner Engage</button>
+                <!-- <button id="fall-social-rsvp" type="button">RSVP on Niner Engage</button> -->
             </div>
-        </section>
-        <h3 class="center">Past Events</h3>            
+        </section>         
         <section class="event">
             <h4>Code Lounge</h4>
             <figure>
@@ -84,10 +83,9 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div data-include="components\footer.html"></div>
-    </footer>
-    <script src="scripts/HTMLInclude.min.js"></script>
+    <footer id="footer"></footer>
     <script src="scripts/default.js"></script>
+    <script src="scripts/menus.js"></script>
+    <script src="scripts/footer.js"></script>
 </body>
 </html>
