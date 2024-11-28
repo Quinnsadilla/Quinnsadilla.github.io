@@ -42,6 +42,12 @@ nav{
     padding: 8px;
 }
 
+footer {
+    margin-top: 30px; /* adds space btween body and footer */
+    padding-top: 10px; 
+    text-align: center; 
+}
+
 hr {
     border: none; /* Removes default hr styling */
     height: 2px; /* Thickness of the line */

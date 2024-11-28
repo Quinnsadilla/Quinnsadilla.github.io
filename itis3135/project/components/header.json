@@ -1,0 +1,7 @@
+[
+    {"name": "Home", "url": "index.html"},
+    {"name": "Join", "url": "join.html"},
+    {"name": "Members", "url": "members.html"},
+    {"name": "Events", "url": "events.html"},
+    {"name": "Girls Who Code HQ", "url": "hq.html"}
+]
