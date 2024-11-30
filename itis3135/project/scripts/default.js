@@ -19,6 +19,7 @@ if (joinNow){
     });
 }
 
+// niner engage link
 const ninerEngage = document.getElementById("niner-engage");
 if (ninerEngage){
     ninerEngage.addEventListener("click", () => {
@@ -55,3 +56,33 @@ const eventDetails = document.querySelectorAll(".event-details");
 eventDetails.forEach((details) => {
     details.style.display = "none";
 });
+
+
+//slide show on index page
+let slideIndex = 1;
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("my-slides");
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+showSlides(slideIndex);
+
+document.querySelector('.prev').addEventListener('click', () => plusSlides(-1));
+document.querySelector('.next').addEventListener('click', () => plusSlides(1));
