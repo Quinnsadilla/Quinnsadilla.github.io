@@ -19,7 +19,8 @@
         <p>Stay updated on events by following us on Instagram and LinkedIn!</p>
         <p><a href="https://www.instagram.com/gwc_clt/" target="new">@gwc_clt on Instagram</a></p>
         <p><a href="https://www.linkedin.com/company/girls-who-code-at-unc-charlotte/posts/?feedView=all" target="new">Connect on LinkedIn</a></p>
-
+        
+        <!-- information for the club to see what new members are interested in -->
         <h3>New Member Form</h3>
         <p>Fill out the form to let us know your interests and any meeting ideas you would like to see.</p>
         <form id="join-form" method="post">
@@ -29,15 +30,17 @@
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="Enter your UNC Charlotte email" required><br><br>
             
-            <label>Select your interests (you can choose multiple):</label><br>
-            <input type="checkbox" id="workshops" name="interests" value="workshops">
-            <label for="workshops">Workshops</label><br>
-            <input type="checkbox" id="networking" name="interests" value="networking">
-            <label for="networking">Networking</label><br>
-            <input type="checkbox" id="coding" name="interests" value="coding">
-            <label for="coding">Learning to code</label><br>
-            <input type="checkbox" id="events" name="interests" value="events">
-            <label for="events">Social events</label><br>
+            <fieldset>
+                <legend>Select your interests (you can choose multiple):</legend>
+                <input type="checkbox" id="workshops" name="interests" value="workshops">
+                <label for="workshops">Workshops</label><br>
+                <input type="checkbox" id="networking" name="interests" value="networking">
+                <label for="networking">Networking</label><br>
+                <input type="checkbox" id="coding" name="interests" value="coding">
+                <label for="coding">Learning to code</label><br>
+                <input type="checkbox" id="events" name="interests" value="events">
+                <label for="events">Social events</label><br>
+            </fieldset>
             <br>
 
             <label for="reason">Is there any events that you would like to see?</label><br>
@@ -46,7 +49,7 @@
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </form>
-        <p id="form-message"></p>
+        <p id="form-message"></p> <!-- form sucess message -->
     </main>
     <footer id="footer"></footer>
     <script src="scripts/default.js"></script>

@@ -183,3 +183,8 @@ figcaption{
   .next {
     right: 0;
   }
+
+  fieldset{
+    border-color: #9900ff;
+    width: 375px;
+  }
