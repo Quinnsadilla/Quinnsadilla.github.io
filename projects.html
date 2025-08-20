@@ -19,18 +19,54 @@
 		<main>
             <h2>Projects</h2>
             <p>During my time at UNC Charlotte, I have completed various projects for my classes. Here are some of the projects I have worked on:</p>
-
-            <h3><a href="itis3135/">Building a Website</a></h3>
+			<br>
+            <h3><a href="itis3135/" target="_blank">Building a Website</a></h3>
             <p>For ITIS-3135 Web App Development, I was tasked with creating six different websites throughout the semester.</p> 
             <p>The first project was to create a homepage for my personal UNC Charlotte site. This is the current site, which I have since expanded to include multiple pages with more information. The second was a class-specific site for <a href="itis3135/index.html">ITIS-3135</a>. The third was a mock business website that included my name, which can be found in the <a href="itis3135/migliaccio.co/index.html">footer of my ITIS-3135 site</a>.</p> 
-            <p>The fourth project was a hobby website that focused on one of my personal interests. This website was designed as a multi-page site contained within a single file. You can view it here: <a href="itis3135/hobby/index.html">Hobby Site</a>.</p> 
+            <p>The fourth project was a hobby website that focused on one of my personal interests. The hobbies that I decided to create my site around was hiking. The website was designed as a multi-page site contained within a single file. You can view it here: <a href="itis3135/hobby/index.html">Hobby Site</a>.</p> 
             <p>The final project was a client-based website. For this assignment, I created a site for the Girls Who Code club at UNC Charlotte at the request of a friend. This project can be found by clicking on <a href="itis3135/project/index.html">Client Project</a>.</p>
 
-            <h3><a href = "https://qmigliac.wixsite.com/qmigliaccio">Data Mining</a></h3>
+            <h3><a href = "https://qmigliac.wixsite.com/qmigliaccio" target="_blank">Data Mining</a></h3>
+			<p>The website contains four seperate projects that I completed during my data mining course.  Each project used a diffrent machine learning method.</p>
 
-            
-            <h3><a href = "https://public.tableau.com/app/profile/quinn.migliaccio/viz/Airbnbratingsandpricestory/Airbnbratingsandpricefindings">Tableau</a></h3>
-            <p>Links to my final storyboard that shows a breakdown of factors affecting NYC's Airbnb prices.</p>
+            <h3>Letter recognition</h3>
+			<p>
+			For my Machine Learning class, I was tasked with finding a dataset and using ML techniques to train and test the data. 
+			The project focused on recognizing handwritten letters based on various features in the dataset. 
+			I used logistic regression and neural networks to classify the letters.
+			</p>
+			<p>
+			To view this project please click the following links: 
+			<a href="https://github.com/Quinnsadilla/Letter-Recognition.git" target="_blank">Code</a> 
+			| <button id="togglePdfBtn" class="link-button">Report</button>
+			</p>
+
+			<!-- Hidden container for the PDF -->
+			<div id="pdfContainer" style="display: none; margin-top: 10px;">
+			<iframe 
+				src="pdf/ITCS-3156 Final Project.pdf" 
+				width="100%" 
+				height="600px"
+				style="border: none;">
+			</iframe>
+			</div>
+
+			<script>
+			const toggleBtn = document.getElementById('togglePdfBtn');
+			const pdfContainer = document.getElementById('pdfContainer');
+
+			toggleBtn.addEventListener('click', () => {
+				if (pdfContainer.style.display === 'none') {
+				pdfContainer.style.display = 'block';
+				toggleBtn.textContent = 'Hide Report';
+				} else {
+				pdfContainer.style.display = 'none';
+				toggleBtn.textContent = 'Report';
+				}
+			});
+			</script>
+            <h3><a href = "https://public.tableau.com/app/profile/quinn.migliaccio/viz/Airbnbratingsandpricestory/Airbnbratingsandpricefindings" target="_blank">Tableau</a></h3>
+            <p>For this assignment I was provieded with a dataset that contains information on NYC Airbnbs.  I was tasked with discovering what factors were affecting prices using tableau. This <a href="https://public.tableau.com/app/profile/quinn.migliaccio/viz/Airbnbratingsandpricestory/Airbnbratingsandpricefindings">link</a> shows my final storyboard that shows my findings about the factors affecting NYC's Airbnb prices.</p>
 		</main>
 		<footer>
 			<nav>
